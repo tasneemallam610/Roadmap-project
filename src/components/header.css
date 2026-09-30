@@ -1,0 +1,102 @@
+:root {
+  --primary: #5B73D6;
+  --primary-light: #EEF2FF;
+  --dark: #1E2B4D;
+  --text: #64748B;
+  --white: #FFFFFF;
+  --border: #E5EAF5;
+  --background: #F8FAFF;
+}
+
+.header {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.links {
+  display: flex;
+  gap: 25px;
+}
+.links a {
+    color: #1E2B4D;
+     transition: 0.3s;
+}
+.tags:hover{
+     border-bottom: 2px solid #5B73D6;
+    color: #5B73D6;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 250px;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.search-form svg {
+  font-size: 22px;
+  color: #5B73D6;
+}
+
+.search-form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #1E2B4D;
+  background: transparent;
+}
+
+.search-form input::placeholder {
+  color: #999;
+}
+
+.search-form:focus-within {
+  border-color: #5B73D6;
+  box-shadow: 0 0 0 3px rgba(91, 115, 214, 0.1);
+}
+
+.in-out {
+  display: flex;
+  gap: 10px;
+}
+
+.name-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.name-logo h1 {
+    color: #64748B;
+}
+.logo{
+    font-size:40px;
+}
+
+.in-out button {
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.login {
+   background-color: transparent;
+}
+
+.signup {
+ 
+  background-color: #5B73D6;
+}
+.iconn {
+  font-size: 20px;
+}
